@@ -10,4 +10,4 @@ matrice = [
             ]
 for ligne in matrice:
     for led in ligne:
-        i2cComm.writenumber(led)            
+        i2cComm.writeNumber(led)            
